@@ -1,0 +1,26 @@
+{
+	"name": "varedoo-webapp",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode=development",
+		"build:prod": "webpack --mode=production",
+		"clean": "rm -rf lib",
+		"dev": "webpack-dev-server --open"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"babel": "^6.23.0",
+		"typescript": "^3.6.4",
+		"vue-loader": "^15.7.1",
+		"vue-template-compiler": "^2.6.10",
+		"webpack": "^4.41.2"
+	},
+	"dependencies": {
+		"@types/vue": "^2.0.0",
+		"vue": "^2.6.10",
+		"vue-styled-components": "^1.4.13"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"outDir": "./lib/",
+		"sourceMap": true,
+		"noImplicitAny": true,
+		"target": "es5",
+		"jsx": "react",
+		"experimentalDecorators": true,
+		"allowJs": true
+	},
+	"include": ["./src/**/*"]
+}

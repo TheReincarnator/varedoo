@@ -1,0 +1,26 @@
+{
+	"name": "varedoo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "lerna run build",
+		"clean": "lerna run clean",
+		"dev": "lerna run dev",
+		"setup": "yarn install && lerna bootstrap && yarn build"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"lerna": "^3.18.3",
+		"prettier": "1.18.2"
+	},
+	"prettier": {
+		"endOfLine": "lf",
+		"printWidth": 100,
+		"proseWrap": "always",
+		"singleQuote": true,
+		"trailingComma": "es5",
+		"useTabs": true
+	}
+}
