@@ -1,12 +1,14 @@
 {
-	"name": "varedoo-server",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"clean": "rm -rf lib"
-	},
-	"author": "",
-	"license": "MIT",
-	"dependencies": {}
+  "name": "varedoo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "varedoo-api": "^1.0.0"
+  }
 }
