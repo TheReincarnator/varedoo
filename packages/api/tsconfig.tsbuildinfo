@@ -68,33 +68,22 @@
       "./src/test.ts": {
         "version": "a44b832f74de68ff8c9af937829abd2298fa89faec27c3792e633904c2587e2c",
         "signature": "acc65eba0921bb82e165b71d00925dd936824b1697be7437387b31fd6fe49c55"
-      },
-      "./src/index.ts": {
-        "version": "58ff2efde06a82c68f5eca73569089810b8b99dacf20478a0c657024bf3906cd",
-        "signature": "58ff2efde06a82c68f5eca73569089810b8b99dacf20478a0c657024bf3906cd"
       }
     },
     "options": {
+      "outDir": "./lib",
       "sourceMap": true,
       "noImplicitAny": true,
       "jsx": 2,
       "experimentalDecorators": true,
+      "module": 1,
       "target": 2,
       "composite": true,
       "rootDir": "./src",
-      "outDir": "./lib",
       "configFilePath": "./tsconfig.json"
     },
-    "referencedMap": {
-      "./src/index.ts": [
-        "./src/test.ts"
-      ]
-    },
-    "exportedModulesMap": {
-      "./src/index.ts": [
-        "./src/test.ts"
-      ]
-    },
+    "referencedMap": {},
+    "exportedModulesMap": {},
     "semanticDiagnosticsPerFile": [
       "../../node_modules/typescript/lib/lib.es6.d.ts",
       "../../node_modules/typescript/lib/lib.es5.d.ts",
@@ -112,8 +101,7 @@
       "../../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "../../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
       "../../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "./src/test.ts",
-      "./src/index.ts"
+      "./src/test.ts"
     ]
   },
   "version": "3.6.4"
