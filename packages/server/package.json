@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"start": "ts-node src/index.ts",
 		"build:with-refs": "tsc --build",
 		"build:with-yarn": "tsc --build",
 		"clean": "rm -rf lib"
@@ -11,7 +12,12 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
+		"@types/node": "12.12.5",
+		"pg": "^7.12.1",
 		"typeorm": "^0.2.20",
 		"varedoo-api": "^1.0.0"
+	},
+	"devDependencies": {
+		"ts-node": "^8.4.1"
 	}
 }

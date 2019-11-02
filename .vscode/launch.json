@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "node",
+			"name": "Launch Program",
+			"request": "launch",
+			"program": "${workspaceFolder}\\packages\\server\\lib\\index.js",
+			"outFiles": ["${workspaceFolder}/packages/server/**/*.js"]
+		}
+	]
+}

@@ -5,7 +5,8 @@
 		"noImplicitAny": true,
 		"jsx": "react",
 		"experimentalDecorators": true,
-		"module": "commonjs"
+		"module": "commonjs",
+		"emitDecoratorMetadata": true
 	},
 	"include": ["./src/**/*"]
 }
