@@ -2,8 +2,7 @@ import * as express from 'express';
 import { initialize } from 'express-openapi';
 import * as swaggerUi from 'swagger-ui-express';
 import * as apiDoc from 'varedoo-api/lib/api.json';
-
-import { getUsers } from './service/userService';
+import { getUsers } from './controller/userController';
 
 const app = express();
 const port = 3000;

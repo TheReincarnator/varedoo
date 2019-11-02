@@ -129,8 +129,12 @@
         "version": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8",
         "signature": "63b66918290d794f73832a6d0325be5026236674fe8c0cb0b68d162000d7bbe8"
       },
+      "./src/types.d.ts": {
+        "version": "ab7f7eff9aa6bf1caa9ee40d34040d22f3950ddfe7cc34cc87c09d9e9f3bf75c",
+        "signature": "ab7f7eff9aa6bf1caa9ee40d34040d22f3950ddfe7cc34cc87c09d9e9f3bf75c"
+      },
       "./src/api.json": {
-        "version": "b5eccb68e59a8d022e1b73f0d3a393fb335df5b200a1de5ae32a4ed3af9fb0fd"
+        "version": "80da8d2c3ad784076d975059ccd9dfd91e90ee4bc5bed159aa74e1122d368957"
       },
       "../../node_modules/@types/node/globals.d.ts": {
         "version": "6cf62fbc792aa81fa62f99dab5cc692c5315ecd5da09dd35f1ccc82778c4d5bc",
@@ -547,6 +551,12 @@
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
       "../../node_modules/typescript/lib/lib.esnext.bigint.d.ts": [
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types.d.ts": [
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../node_modules/@types/node/util.d.ts",
@@ -1077,6 +1087,12 @@
         "../../node_modules/@types/node/util.d.ts",
         "../../node_modules/@types/node/ts3.2/util.d.ts"
       ],
+      "./src/types.d.ts": [
+        "../../node_modules/@types/node/fs.d.ts",
+        "../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../node_modules/@types/node/util.d.ts",
+        "../../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
       "../../node_modules/@types/node/globals.d.ts": [
         "../../node_modules/@types/node/fs.d.ts",
         "../../node_modules/@types/node/ts3.2/fs.d.ts",
@@ -1532,6 +1548,7 @@
       "../../node_modules/typescript/lib/lib.es2018.regexp.d.ts",
       "../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../node_modules/typescript/lib/lib.esnext.bigint.d.ts",
+      "./src/types.d.ts",
       "./src/api.json",
       "../../node_modules/@types/node/globals.d.ts",
       "../../node_modules/@types/node/assert.d.ts",

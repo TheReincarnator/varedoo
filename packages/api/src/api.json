@@ -1,15 +1,49 @@
 {
 	"swagger": "2.0",
 	"info": { "title": "Varedoo", "version": "1.0" },
-	"host": "localhost",
+	"host": "localhost:3000",
 	"basePath": "/",
 	"schemes": ["http"],
 	"paths": {
 		"/users": {
 			"get": {
 				"operationId": "getUsers",
-				"responses": { "200": { "description": "OK" } }
+				"responses": {
+					"200": {
+						"description": "OK",
+						"schema": {
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/User"
+							}
+						}
+					}
+				}
 			}
+		}
+	},
+	"definitions": {
+		"User": {
+			"type": "object",
+			"properties": {
+				"id": {
+					"type": "number"
+				},
+				"firstName": {
+					"type": "string"
+				},
+				"lastName": {
+					"type": "string"
+				},
+				"contactInfo": {
+					"type": "object",
+					"additionalProperties": true
+				},
+				"userName": {
+					"type": "string"
+				}
+			},
+			"required": ["id", "userName", "firstName", "lastName"]
 		}
 	}
 }

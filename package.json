@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build": "tsc --build -v",
+		"build": "yarn workspace varedoo-server run generate:typings && tsc --build -v",
 		"setup": "yarn install && yarn build"
 	},
 	"author": "",

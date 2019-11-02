@@ -7,5 +7,6 @@
 		"clean": "rm -rf lib"
 	},
 	"author": "",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {}
 }
