@@ -4,8 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"build:with-yarn": "yarn workspace run build",
-		"build:with-refs": "tsc --build",
+		"build": "tsc --build -v",
 		"setup": "yarn install && yarn build"
 	},
 	"author": "",

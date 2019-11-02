@@ -1,0 +1,15 @@
+{
+	"swagger": "2.0",
+	"info": { "title": "Varedoo", "version": "1.0" },
+	"host": "localhost",
+	"basePath": "/",
+	"schemes": ["http"],
+	"paths": {
+		"/users": {
+			"get": {
+				"operationId": "getUsers",
+				"responses": { "200": { "description": "OK" } }
+			}
+		}
+	}
+}
