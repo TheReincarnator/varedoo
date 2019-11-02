@@ -2,6 +2,7 @@
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"target": "es6",
+		"composite": true,
 		"outDir": "./lib/",
 		"rootDir": "./src"
 	},

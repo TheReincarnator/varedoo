@@ -3,8 +3,8 @@
 	"compilerOptions": {
 		"target": "es6",
 		"composite": true,
-		"outDir": "./lib/",
-		"rootDir": "./src"
+		"rootDir": "src",
+		"outDir": "lib"
 	},
 	"include": ["./src/**/*.ts"]
 }

@@ -2,7 +2,7 @@
 	"name": "varedoo-api",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "lib/index.js",
 	"scripts": {
 		"build:with-refs": "tsc --build",
 		"clean": "rm -rf lib"

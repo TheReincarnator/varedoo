@@ -1,11 +1,8 @@
 {
 	"compilerOptions": {
-		"outDir": "./lib/",
 		"sourceMap": true,
 		"noImplicitAny": true,
 		"jsx": "react",
-		"experimentalDecorators": true,
-		"module": "commonjs"
-	},
-	"include": ["./src/**/*"]
+		"experimentalDecorators": true
+	}
 }

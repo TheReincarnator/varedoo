@@ -12,6 +12,7 @@
 	"license": "MIT",
 	"dependencies": {
 		"typeorm": "^0.2.20",
-		"varedoo-api": "^1.0.0"
+		"varedoo-api": "^1.0.0",
+		"string_decoder": "^1.3.0"
 	}
 }

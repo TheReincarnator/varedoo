@@ -2,6 +2,7 @@
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"target": "es5",
+		"composite": true,
 		"outDir": "./lib/",
 		"rootDir": "./src"
 	},
