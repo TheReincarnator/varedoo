@@ -11,7 +11,7 @@ export class User extends BaseEntity {
 	@Column()
 	lastName: string;
 
-	@Column('simple-json')
+	@Column('json')
 	contactInfo: { [key: string]: string };
 
 	@Column()

@@ -1,8 +1,10 @@
 import { getRepository, createConnections } from 'typeorm';
 import { User } from '../entity/user';
 
+const connectionsPromise = createConnections();
+
 export async function getUsers() {
-	await createConnections();
+	await connectionsPromise;
 	const userRepository = getRepository(User);
 
 	return await userRepository.find();
