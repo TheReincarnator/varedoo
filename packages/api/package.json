@@ -4,6 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"build:with-refs": "tsc --build",
 		"clean": "rm -rf lib"
 	},
 	"author": "",

@@ -1,14 +1,17 @@
 {
-  "name": "varedoo-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "clean": "rm -rf lib"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "varedoo-api": "^1.0.0"
-  }
+	"name": "varedoo-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:with-refs": "tsc --build",
+		"build:with-yarn": "tsc --build",
+		"clean": "rm -rf lib"
+	},
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"typeorm": "^0.2.20",
+		"varedoo-api": "^1.0.0"
+	}
 }
