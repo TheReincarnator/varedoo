@@ -18,7 +18,7 @@
 		"express-openapi": "^5.0.0",
 		"pg": "^7.12.1",
 		"swagger-ui-express": "^4.1.2",
-		"typeorm": "^0.2.20",
+		"typeorm": "^0.2.25",
 		"varedoo-api": "^1.0.0"
 	},
 	"devDependencies": {
